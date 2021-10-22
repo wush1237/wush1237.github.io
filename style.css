@@ -1,0 +1,14 @@
+.Name {
+  color: white;
+  background-color: rgb(102, 91, 199);
+}
+
+.info {
+  color: rgb(42, 11, 129);
+  margin: 100px 200px 0px 200px;
+}
+
+.personal {
+  font-size: 20px;
+  font-weight: bold;
+}
