@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem;
+}
+nav {
+  background-color: #002b48;
+}
+nav ul {
+  display: flex;
+  padding-left: 2rem;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 0.75rem 0.5rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  flex: flex-wrap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bibee_photo {
+  display: none;
+}
