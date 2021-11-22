@@ -36,11 +36,10 @@
             <div class="info" > 
                 <table>
                     <tr>
-                        <h1 class="Name">
-                        吳思嫻
-                        </h1>
+                        
                       <td rowspan="2"><img src="./self.jpg" width="300"></td>
                       <td class="personal">
+                          <h1 class="Name">吳思嫻</h1>
                             <h4>就讀輔仁大學醫學資訊與創新應用學士學位學程二年級。</h4>
                             <br>
                             <h4>連絡資訊</h4>
@@ -69,16 +68,20 @@
 
         <section class="par_bibee" id="par_bibee">
             <h2>有一隻兔子   『比比』</h2>
-            <div class="icon"><img src="./imgs/icon.png"></div>
-            <div class="bibee_photo">
+            <section class="put_bnt">
+                <p class="play_park">去公園玩(雙點擊)<img src="./imgs/icon.png"></p>
+            </section>
+            
+            <div class="play_park_photo">
                 <div class="bi1"><img src="./imgs/bibee1.jpg" width="400px"></div>
                 <div class="bi2"><img src="./imgs/bibee2.jpg" width="400px"></div>
                 <div class="bi3"><img src="./imgs/bibee3.jpg" width="400px"></div>
                 <div class="bi4"><img src="./imgs/bibee4.jpg" width="400px"></div>
                 <div class="bi5"><img src="./imgs/bibee5.jpg" width="400px"></div>
                 <div class="bi6"><img src="./imgs/bibee6.jpg" width="400px"></div>
-                
             </div>
+
+            <div class=""
         </section>
         
         <div class="topbibee">
@@ -87,17 +90,21 @@
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
+        <body>
+            <script>
+                $(document).ready(function(){
 
-                $(".icon").dblclick(function(){
-                $(".bibee_photo").toggle();
+                $(".play_park").dblclick(function(){
+                $(".play_park_photo").toggle();
             })
 
 
             })
+            </script>
             
-        </script>
+        </body>
+            
+        
 
     </body>
 </html>

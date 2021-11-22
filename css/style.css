@@ -7,7 +7,7 @@
 header {
   background-color: #c4c4c4;
   width: 100%;
-  padding: 1rem;
+  padding: rem;
 }
 nav {
   background-color: #002b48;
@@ -47,6 +47,21 @@ main {
   flex-wrap: wrap;
 }
 
-.bibee_photo {
+.play_park {
+  width: 150px;
+  height: 120px;
+  background-color: aquamarine;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.par_bibee {
+  padding: 2rem;
+}
+
+.play_park_photo {
   display: none;
 }
